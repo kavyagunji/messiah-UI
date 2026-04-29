@@ -15,7 +15,10 @@ constructor(private http: HttpClient) {}
 currentYear: number = new Date().getFullYear();
 
    sendPrayer(form: any) {
-    if (form.invalid) 
+    if (form.invalid) {
+    alert('Please fill all required fields');
+    return; // 🔥 stops execution
+  }
 
     this.http.post('https://messiah-backend.onrender.com/send-email', form.value)
       .subscribe({
