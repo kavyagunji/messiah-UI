@@ -1,0 +1,106 @@
+.prayerministries-contents{
+    width: 100%;
+    position: relative;
+}
+.prayerministries-img{
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(81, 81, 81, 0.7) 1.59%, rgba(0, 0, 0, 0.7) 59.43%);
+}
+.prayerministries-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #EEEEEE;
+  text-align: center;
+   z-index: 2;
+  width: 100%;
+}
+
+/* SECTION */
+.prayer-section{
+  padding:0px 20px;
+  font-family:'Poppins', sans-serif;
+}
+
+.prayer-container{
+  display:grid;
+  grid-template-columns:1.2fr 420px;
+margin:auto;
+max-width: 1300px;
+}
+
+/* LEFT */
+.prayer-content h1{
+  font-size:100px;
+  line-height:1;
+  font-family:'Playfair Display', serif;
+  font-weight:500;
+  color:#111;
+  margin-bottom:25px;
+}
+
+.time{
+  font-size:16px;
+  color:#666;
+  margin-bottom:30px;
+}
+
+.prayer-content p{
+  font-size:15px;
+  line-height:1.8;
+  color:#444;
+  margin-bottom:18px;
+  max-width:720px;
+}
+
+/* RIGHT IMAGE */
+.prayertower-image{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 90%;
+}
+
+/* GALLERY */
+.prayer-gallery{
+  max-width:1300px;
+  margin:50px auto 0;
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:15px;
+  margin-bottom: 50px;
+}
+
+/* RESPONSIVE */
+@media(max-width:992px){
+
+  .prayer-container{
+    grid-template-columns:1fr;
+  }
+
+  .prayer-content h1{
+    font-size:58px;
+  }
+
+  .prayer-gallery{
+    grid-template-columns:1fr 1fr;
+  }
+}
+
+@media(max-width:768px){
+
+  .prayer-content h1{
+    font-size:40px;
+  }
+
+  .prayer-gallery{
+   display: flex;
+        flex-direction: column;
+        width: 80%;
+  }
+
+}

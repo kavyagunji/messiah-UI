@@ -1,0 +1,56 @@
+<!-- Top Info Bar -->
+<div class="top-bar">
+  <span><b>Sunday:</b> 8:30am, 10:30am & 6:00pm</span>
+  <span>| <b>Wednesday:</b> 5:00am (Men’s Prayer)</span>
+  <span>| <b>Friday:</b> 6:30pm (Family Prayer)</span>
+  <span>| <b>Prayer Tower:</b> 7:00am to 10:00pm</span>
+</div>
+
+<!-- Navbar -->
+<div class="navbar">
+  
+  <!-- Logo -->
+  <div class="logo">
+    <img src="images/logo-1.png" alt="Messiah Fellowship" />
+  </div>
+
+    <div class="menu-icon" (click)="menuOpen = !menuOpen">
+    ☰
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav-links" [class.active]="menuOpen">
+    <a routerLink="/" (click)="closeMenu()" >Home</a>
+    <a routerLink="/about" (click)="closeMenu()">About</a>
+    <div class="navbar-ministries">
+    <a class="drop-btn" >Ministries</a>
+    <div class="ministries-content">
+      <a routerLink="/men" (click)="closeMenu()">Men Ministry</a>
+      <a routerLink="/women" (click)="closeMenu()">Women Ministry</a>
+      <a routerLink="/children" (click)="closeMenu()">Child Ministry</a>
+      <a routerLink="/youth" (click)="closeMenu()">Youth Ministry</a>
+      <a routerLink="/prayer" (click)="closeMenu()">Prayer Tower</a>
+    </div>
+    </div>
+    <div class="navbar-ministries">
+    <a class="drop-btn" >Outreach</a>
+    <div class="ministries-content">
+      <a routerLink="/widowcare" (click)="closeMenu()">WidowCare Ministry</a>
+      <a routerLink="/medical" (click)="closeMenu()">Medical Ministry</a>
+      <a routerLink="/floodrelief" (click)="closeMenu()">Flood Relief</a>
+      <a routerLink="/kamalaarts" (click)="closeMenu()">Kamala Art and Craft</a>
+      <a routerLink="/vegetables" (click)="closeMenu()">Vegetables</a>
+    </div>
+    </div>
+    <a routerLink="/events" (click)="closeMenu()">Events</a>
+    <a routerLink="/inthenews" (click)="closeMenu()">In the News</a>
+    <a routerLink="/sermons" (click)="closeMenu()">Sermons</a>
+    <a routerLink="/give" (click)="closeMenu()">Give</a>
+    <a routerLink="/contact" (click)="closeMenu()">Contact</a>
+      <div>
+    <a class="watch-btn" (click)="closeMenu()" href="https://www.youtube.com/watch?v=-iya9O9soIQ&pp=ygUSc2hpbmNoYW4gaW4gdGVsdWd1" target="_blank">▶ WATCH LIVE</a>
+  </div>
+  </nav>
+
+
+</div>

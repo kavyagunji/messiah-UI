@@ -1,0 +1,96 @@
+<div class="footer">
+  <div class="footer-container">
+    <div class="footer-left">
+
+      <div class="footer-col">
+        <h4>Church Info</h4>
+        <p>Messiah Fellowship</p>
+        <p>100 Feet Road</p>
+        <p>AutoNagar Gate</p>
+        <p>Vijayawada - 520007</p>
+        <br>
+        <p class="contact"><img src="images/Frame1.png" width="25" style="position: relative; ;top:5px;"> +91-9494 76 76 33</p>
+        <p class="contact"><img src="images/Frame.png" width="25" style="position: relative; ;top:5px;"> info&#64;messiahfellowship.net</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Ministries</h4>
+        <p routerLink="/men">Men Ministry</p>
+        <p routerLink="/women">Women Ministry</p>
+        <p routerLink="/youth" >Youth Ministry</p>
+        <p routerLink="/children">Sunday School</p>
+        <p routerLink="/prayer" >Prayer Tower</p>
+        <p>Family Blessing Prayer</p>
+        <p>Messiah Bible College</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Get Involved</h4>
+        <p>Plan Your Visit</p>
+        <p routerLink="/give" >Give</p>
+        <p>Volunteer</p>
+        <p routerLink="/contact" >Contact Us</p>
+        <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank" style="text-decoration: none;">
+         <p>Watch Online</p>
+        </a>
+      </div>
+
+       <hr class="footer-line">
+       <div class="footer-social">
+      <div class="footer-col social">
+        <div class="social-text">Follow Us on Our Social Media Platforms</div><br>
+        <div class="social-context"><img src="images/Frame2.png" width="25" style="position: relative; ;top:5px;">  Messiah Fellowship</div><br>
+        <div class="social-context"><img src="images/Frame4.png" width="25" style="position: relative; ;top:5px;">  Messiah Fellowship</div><br>
+        <div class="social-context"><img src="images/Frame3.png" width="25" style="position: relative; ;top:5px;">  Messiah Fellowship</div>
+      </div>
+      
+      <div>
+        <img src="images/logo.png">
+      </div>
+     </div>
+    </div>
+     
+    <div class="footer-form">
+      <div class="prayer-section">
+     <div class="prayer-card">
+    <h2>We’re Here to Pray for You</h2>
+    <p class="desc">
+      No matter what you’re going through, God cares and so do we.
+      Send us your prayer request, and our team will lift you up in prayer.
+    </p>
+
+    <form class="prayer-form" (ngSubmit)="sendPrayer(prayerForm)" #prayerForm="ngForm">
+      <div class="form-fields">
+      <div class="left-fields">
+        <input type="text" name="name" ngModel placeholder="Your name" required  />
+        <input type="email" name="email" ngModel placeholder="Your email" required pattern="^[a-zA-Z0-9._%+-]+@gmail\.com$" />
+        <input type="text" name="city" ngModel placeholder="City" />
+        <div class="phone-group">
+          <select name="countryCode" ngModel required >
+          <option value="">+91 </option>
+           <option value="+1">+1 </option>
+           <option value="+44">+44</option>
+           <option value="+61">+61</option>
+          </select>
+          <input name="phone" type="phone" ngModel placeholder="Phone Number" pattern="^[0-9]{10}$" />
+        </div>
+      </div>
+
+      <div class="right-fields">
+         <textarea name="message" ngModel required placeholder="Message" ></textarea>
+      </div>
+      </div>
+      <button class="submit-btn" type="submit" >SEND YOUR REQUEST</button>
+    </form>
+
+    
+  </div>
+</div>
+    </div>
+
+  </div>
+
+</div>
+ <div class="footer-bottom">
+    © Messiah Fellowship {{ currentYear }}
+  </div>

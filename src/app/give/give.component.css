@@ -1,0 +1,227 @@
+.overlay{
+  background: #4F0834D9 85%;
+}
+.give-contents{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.give-img{
+    content: "";
+  position: absolute;
+  inset: 0;
+  background: #4F0834D9 85%;
+  z-index: 1;
+}
+.give-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #A3832E;
+  text-align: center;
+  z-index: 2;
+}
+
+.thithes-content{
+font-family: Playfair Display;
+font-weight: 600;
+font-style: Italic;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: -4%;
+text-align: center;
+  color: #FFE8F7;
+}
+
+.thithes-content2{
+font-family: Playfair Display;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 42px;
+line-height: 48px;
+letter-spacing: -4%;
+text-align: center;
+  color: #FFE8F7;
+}
+
+.giving-section{
+  padding:40px 20px;
+  font-family:'Poppins',sans-serif;
+}
+
+.giving-container{
+  max-width:1200px;
+  margin:auto;
+}
+
+.top-grid{
+  display:flex;
+  align-items: center;
+  gap:25px;
+  margin-bottom:35px;
+}
+
+.text-box{
+  padding:20px;
+}
+
+.text-box h2{
+  font-size:64px;
+  font-family:'Playfair Display',serif;
+  font-weight:500;
+  margin-bottom:20px;
+  color:#111;
+  line-height:1;
+}
+
+.text-box p{
+  font-size:15px;
+  line-height:1.8;
+  color:#444;
+  margin-bottom:15px;
+}
+
+.image-box img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  border-radius:8px;
+}
+.bottom-grid{
+    display: flex;
+}
+.offer-card{
+  display:flex;
+  flex-direction:column;
+}
+
+.offer-top{
+  background:#a88422;
+  color:#fff;
+  padding: 10px 20px 15px 60px
+}
+
+.offer-top h2{
+  font-size:98px;
+  font-family:'Playfair Display',serif;
+  font-weight:400;
+  margin-bottom:20px;
+}
+
+.offer-top p{
+  font-size:18px;
+  line-height:1.8;
+  margin-bottom:15px;
+}
+
+.offer-bottom{
+  background:#5d0038;
+  color:#FFFBEF;
+  padding:35px 40px;
+}
+
+.offer-bottom h3{
+  font-size:30px;
+  margin-bottom:20px;
+}
+
+.offer-bottom ul{
+  columns:2;
+  padding-left:18px;
+  margin-bottom:25px;
+}
+
+.offer-bottom li{
+  margin-bottom:10px;
+  font-size:18px;
+}
+
+.offer-bottom a{
+  display:inline-block;
+  padding:12px 28px;
+  border:1px solid #fff;
+  border-radius:30px;
+  color:#FFFBEF;
+  text-decoration:none;
+  font-size:14px;
+}
+
+.offer-bottom a:hover{
+  background:#fff;
+  color:#5d0038;
+}
+.donate-image{
+  position: relative;
+  overflow: hidden;
+}
+.donate-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.tithe-offering{
+   content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(163, 131, 46, 0.5) 41.93%, rgba(61, 49, 17, 0.5) 70.21%, rgba(0, 0, 0, 0.5) 93.22%);
+}
+.quote{
+  text-align:center;
+  font-size:103px;
+  font-family:'Playfair Display',serif;
+  font-style:italic;
+  color:#746742;
+  margin-top:20px;
+}
+
+/* RESPONSIVE */
+@media(max-width:992px){
+
+  .top-grid{
+    grid-template-columns:1fr;
+  }
+
+  .bottom-grid{
+    grid-template-columns:1fr;
+  }
+
+  .text-box h2{
+    font-size:46px;
+  }
+
+  .offer-top h2,
+  .quote{
+    font-size:48px;
+  }
+}
+
+@media(max-width:768px){
+   
+  .top-grid{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bottom-grid{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .offer-bottom ul{
+    columns:1;
+  }
+
+  .quote{
+    font-size:34px;
+  }
+  .thithes-content{
+    font-size: 20px;
+  }
+  .thithes-content2{
+    font-size: 20px;
+  }
+}

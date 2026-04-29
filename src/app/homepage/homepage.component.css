@@ -1,0 +1,816 @@
+.about-section {
+  text-align: center;
+  padding: 20px 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+
+.tagline {
+  color: #2B2B2B;
+ font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 16px;
+}
+
+.main-headings {
+font-family: Playfair Display;
+font-weight: 400;
+font-style: Italic;
+font-size: 50px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.sub-heading {
+ font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 30px;
+color: #605F5F;
+margin-bottom: 10px;
+}
+
+.services {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.service-card {
+  background: #b08a2e;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 6px;
+  text-align: center;
+  min-width: 140px;
+}
+
+.service-card span {
+  display: block;
+  font-size: 12px;
+}
+
+.service-card strong {
+  font-size: 14px;
+}
+
+.desc {
+  font-size: 13px;
+  color: #666;
+  max-width: 700px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+
+.cta-btn {
+  margin-top: 25px;
+  padding: 10px 24px;
+  background: #7a1e4d;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cta-btn:hover {
+  background: #5c1438;
+}
+
+.pastors-section {
+  width: 100%;
+  font-family: 'Georgia', serif;
+}
+
+.pastor-content{
+background: #f8f6f7;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px;
+}
+
+.pastor-row {
+     display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+    width: 100%;
+    height: 543px;
+}
+
+.pastor-image-1{
+  width: 50%;
+    height: 100%;
+}
+.pastor-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.pastor-rows{
+  display: flex;
+  align-items: center;
+}
+
+.pastor-founder{
+  font-family: Inter;
+  font-weight: 300;
+  font-style: Light;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #2B2B2B;
+  text-align: justify;
+}
+
+.pastor-image-1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.pastor-image-2 img {
+  width: 100%;
+  border-radius: 35px;
+}
+
+.pastor-image-2{
+  margin-bottom: -130px;
+  width: 50%;
+    margin-right: 10%;
+}
+
+.pastor-sajja{
+  font-family: Playfair Display;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: justify;
+  color: #2B2B2B;
+}
+
+.pastor-contents-1{
+  padding: 60px 80px;
+  width: 50%;
+}
+.pastor-name{
+font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0%;
+
+}
+.pastor-text-content{
+font-family: Inter;
+font-weight: 300;
+font-style: Light;
+font-size: 14px;
+line-height: 22px;
+letter-spacing: 0%;
+color: #1a1a1a;
+}
+
+.label {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.doctor-name{
+font-family: Playfair Display;
+font-weight: 550;
+font-style: Italic;
+font-size: 22px;
+color: #1A1A1A;
+}
+
+.our-pastor{
+font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 16px;
+color: #2B2B2B;
+}
+
+.highlight {
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.doctor-content{
+  font-family: Inter;
+font-weight: 300;
+font-style: Light;
+font-size: 15px;
+color: #1A1A1A;
+}
+
+.pastor-content p {
+font-family: Playfair Display;
+font-weight: 400;
+font-style: Italic;
+font-size: 22px;
+color: #1A1A1A;
+}
+
+.meet-pastor {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid #7a4d5a;
+  background: #9e0a6a;
+  border-radius: 25px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 200px;
+}
+
+.meet-pastor:hover {
+  background: #804b5a;
+}
+
+.ministries-section {
+  background: #5b0038;
+  padding: 80px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+}
+
+.section-header {
+  margin-bottom: 40px;
+}
+
+.section-header h2 {
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.section-header p {
+  color: #d9d9d9;
+  max-width: 650px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.day-time{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+.card1-grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.card1 {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  transition: 0.3s ease;
+}
+
+.card1:hover {
+  transform: translateY(-6px);
+}
+
+.card {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card .card-tower {
+  width: 100%;
+}
+
+.card1 .card-tower{
+  width: 100%;
+  height: 220px;
+
+}
+
+.card1 {
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  transition: 0.3s ease;
+}
+
+.card-content {
+  padding: 18px;
+}
+
+.card-content h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.card-content p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.card-content span {
+  font-size: 13px;
+  color: #444;
+  font-weight: 600;
+}
+
+.wide-card {
+  grid-column: span 1;
+}
+
+.card-tower {
+  height: 285px;
+  width: 100%;
+}
+
+.banner-card {
+  grid-column: span 3;
+  position: relative;
+}
+
+.banner-card img {
+  height: 330px;
+}
+
+.banner-card .overlays {
+  position: absolute;
+  left: 40px;
+  bottom: 35px;
+  color: #fff;
+}
+
+.banner-card h3 {
+  font-size: 44px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.banner-card p {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.banner-card span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.outreach-section {
+  font-family: 'Poppins', sans-serif;
+  padding: 60px 0px 0px;
+}
+
+.container {
+  max-width: 1150px;
+  margin: auto;
+  padding: 0px 20px 0 20px
+}
+
+.college-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #efefef;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.college-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.college-content {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.college-name {
+font-family: Playfair Display;
+font-weight: 700;
+font-style: Bold;
+font-size: 45px;
+}
+
+.sub-title {
+font-family: Inter;
+font-weight: 300;
+font-style: Light;
+font-size: 21px;
+color: #2B2B2B;
+}
+
+.college-content p {
+font-weight: 300;
+font-style: Light;
+font-size: 14px;
+color: #1A1A1A;
+}
+
+.btn-outline {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 28px;
+  border: 2px solid ;
+  color: #fff;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+  background: #9e0a6a;
+  width: 165px;
+  text-align: center;
+}
+
+.btn-outline:hover {
+  background: #6e0048;
+  color: #fff;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-title h2 {
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 55px;
+}
+
+.section-title h3 {
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: #222;
+  line-height: 1.3;
+  margin: 10px 0 20px;
+  color: #1B1B1B;
+}
+
+.section-title div {
+  font-size: 21px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  color: #222;
+  line-height: 1.3;
+  margin: 10px 0 20px;
+  color: #2B2B2B;
+}
+
+.section-title p {
+  max-width: 850px;
+  margin: auto;
+  color: #555;
+  line-height: 1.8;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.nav-buttons{
+  display:flex;
+  gap:12px;
+  margin-bottom:30px;
+}
+
+.nav-buttons button{
+  width:46px;
+  height:46px;
+  border:none;
+  border-radius:50%;
+  background:#111;
+  color:#fff;
+  font-size:28px;
+  cursor:pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.outreach-img{
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(28, 28, 28, 0) 0%, rgba(17, 17, 17, 0.9) 100%);
+}
+
+.outreach-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+
+.outreach-card {
+  position: relative;
+  overflow: hidden; 
+  border-radius: 8px;
+}
+
+.outreach-card img {
+  width: 100%;
+  height: 450px;
+  display: block;
+  transition: transform 0.2s ease; 
+  background: linear-gradient(180deg, rgba(28, 28, 28, 0) 0%, rgba(17, 17, 17, 0.9) 100%);
+}
+
+.outreach-card:hover img {
+  transform: scale(1.1);
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 90%; 
+  padding: 20px; 
+  color: #fff;
+  z-index: 2;
+}
+
+.overlay span{
+  font-size:14px;
+  letter-spacing:1px;
+}
+
+.month-year{
+  font-size:28px;
+  line-height:1;
+  margin:8px 0 12px;
+}
+
+.date-know{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+
+.overlay a{
+  color:#fff;
+  text-decoration:none;
+  font-size:14px;
+}
+
+.give-section {
+  padding: 40px 20px;
+}
+
+.give-container {
+  max-width: 880px;
+  margin: auto;
+  background: #a8841f;
+  border-radius: 18px;
+  padding: 35px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.give-content h2 {
+  font-size: 72px;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 18px;
+  margin-top: 10px;
+}
+
+.sub-text {
+  color: #f7f1d8;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.desc-give {
+  color: #f7f1d8;
+  font-size: 17px;
+  max-width: 700px;
+  margin-bottom: 35px;
+}
+
+.give-btn {
+  display: inline-block;
+  padding: 14px 34px;
+  border: 1.5px solid #fff;
+  color: #fff;
+  border-radius: 40px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease;
+}
+
+.give-btn:hover {
+  background: #795a04;
+  color: #ffffff ;
+}
+
+.give-image {
+  flex: 0 0 260px;
+  text-align: right;
+}
+
+.give-image img {
+  width: 200px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+@media(max-width:1200px){
+  .pastor-row{
+    flex-direction: column;
+    height: auto;
+  }
+  .pastor-image-1{
+    width: 100%;
+  }
+  .pastor-content{
+    width: 93%;
+    padding: 30px;
+  }
+  .pastor-rows{
+  flex-direction: column;
+  margin: 10px;
+}
+.pastor-contents-1{
+  width: 100%;
+  padding: unset;
+}
+.pastor-image-2{
+  width: 60%;
+    margin-bottom: -5%;
+    margin-right: unset;
+}
+}
+
+@media (max-width: 992px) {
+  .give-container {
+    flex-direction: column;
+    text-align: center;
+    padding: 45px 30px;
+  }
+
+  .give-content h2 {
+    font-size: 58px;
+  }
+
+  .desc {
+    max-width: 100%;
+  }
+
+  .give-image {
+    text-align: center;
+  }
+  .outreach-grid{
+    grid-template-columns:1fr 1fr;
+  }
+
+  .top-text{
+    font-size:24px;
+  }
+
+   .college-box {
+    grid-template-columns: 1fr;
+  }
+
+  .impact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+   .cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .banner-card {
+    grid-column: span 2;
+  }
+}
+
+@media (max-width: 768px) {
+   
+  .card1-grid{
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .banner-card,
+  .wide-card {
+    grid-column: span 1;
+  }
+
+  .section-header h2 {
+    font-size: 34px;
+  }
+
+  .banner-card h3 {
+    font-size: 30px;
+  }
+
+  .give-content h2 {
+    font-size: 42px;
+  }
+
+  .sub-text,
+  .desc {
+    font-size: 15px;
+  }
+
+  .give-image img {
+    width: 180px;
+  }
+
+  .outreach-grid{
+    grid-template-columns:1fr;
+  }
+
+  .overlay h3{
+    font-size:36px;
+  }
+
+  .top-text{
+    font-size:20px;
+  }
+  .impact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-title h2 {
+    font-size: 34px;
+  }
+
+  .section-title h3 {
+    font-size: 28px;
+  }
+
+  .college-content h2 {
+    font-size: 30px;
+  }
+
+  .main-headings {
+  font-size: 30px;
+  }
+
+  .sub-heading{
+    font-size: 28px;
+  }
+  
+  .college-name{
+    font-size: 35px;
+  }
+  .college-content{
+    padding: 40px;;
+  }
+}

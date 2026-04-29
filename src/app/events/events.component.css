@@ -1,0 +1,32 @@
+.event-contents{
+    width: 100%;
+
+    position: relative;
+}
+.event-img{
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(81, 81, 81, 0.7) 1.59%, rgba(0, 0, 0, 0.7) 59.43%);
+}
+.event-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #EEEEEE;
+  text-align: center;
+   z-index: 2;
+}
+
+.upcoming-content{
+ font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #3F3F3F;
+text-align: center;
+}

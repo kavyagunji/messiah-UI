@@ -1,0 +1,366 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: 'Poppins', sans-serif;
+  background:#fff;
+}
+
+.about-contents{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.about-image{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(81,81,81,0.7) 1.59%,
+    rgba(0,0,0,0.7) 59.43%
+  );
+  z-index: 1;
+}
+
+.about-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #EEEEEE;
+  text-align: center;
+   z-index: 2;
+}
+
+.about-page{
+  width:100%;
+}
+
+.about-intro{
+  text-align:center;
+  padding:50px 20px 70px;
+  max-width:1100px;
+  margin:auto;
+}
+
+.mini-title{
+  font-size:16px;
+  letter-spacing:3px;
+  font-weight:600;
+  color:#2b2b2b;
+  display:block;
+  margin-bottom:30px;
+  font-style: bold;
+}
+
+.about-intro h1{
+  font-family:'Playfair Display', serif;
+  font-size:50px;
+  font-weight:400;
+  line-height:1.15;
+  color:#1a1a1a;
+  margin-bottom:35px;
+}
+
+.about-intro p{
+  max-width:900px;
+  margin:0 auto 18px;
+  color:#414141;
+  font-size:14px;
+  line-height:1.8;
+}
+
+.mission-section{
+  background:#efefef;
+  text-align:center;
+  padding:80px 20px 100px;
+}
+
+.mission-section h2{
+  font-family:'Playfair Display', serif;
+  font-size:69px;
+  font-weight:400;
+  line-height:1.1;
+  color:#111;
+  margin-bottom:20px;
+}
+
+.plus-icon{
+  font-size:90px;
+  color:#bbb;
+  font-weight:300;
+  line-height:1;
+  margin-bottom:40px;
+}
+
+.mission-grid{
+  display:flex;
+  justify-content:center;
+  gap:35px;
+  flex-wrap:wrap;
+}
+
+.card{
+  background:#fff;
+  width:510px;
+  padding:15px 20px;
+  border-radius:14px;
+  box-shadow:0 8px 25px rgba(0,0,0,0.05);
+}
+
+.card h3{
+  font-size:35px;
+  margin-bottom:20px;
+  color:#000;
+  font-weight:600;
+}
+
+.card p{
+  font-size:20px;
+  color:#000;
+  line-height:1.8;
+}
+
+.belief-section{
+  background:#f1f1f1;
+  padding:30px 20px;
+  font-family:'Poppins',sans-serif;
+}
+
+.values-section{
+  padding:0px 25px 35px;
+  font-family:'Poppins', sans-serif;
+}
+
+.container{
+  max-width:1150px;
+  margin:auto;
+}
+
+.section-title{
+  text-align:center;
+  font-size:70px;
+  font-family:'Playfair Display', serif;
+  font-weight:400;
+  color:#33262E;
+  margin-bottom:55px;
+}
+
+.values-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:28px;
+}
+
+.value-card{
+  background:#efdbe8;
+  padding: 20px 30px 9px;
+  border-radius:18px;
+  min-height:290px;
+  transition:0.3s ease;
+}
+
+.value-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 15px 35px rgba(0,0,0,0.08);
+}
+
+.icon{
+  font-size:34px;
+  margin-bottom:25px;
+  color:#6a1d4d;
+}
+
+.value-card h3{
+  font-size:36px;
+  font-family:'Playfair Display', serif;
+  font-style:italic;
+  font-weight:500;
+  color:#4F0834;
+  margin-bottom:18px;
+}
+
+.value-card p{
+  font-size:17px;
+  color:#4F0834;
+  line-height:1.7;
+}
+
+.container{
+  max-width:1200px;
+  margin:auto;
+}
+
+.top-layout{
+  display:grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap:30px;
+  margin-bottom:30px;
+}
+
+.belief-text h2{
+  font-size:40px;
+  font-family:'Playfair Display',serif;
+  margin-bottom:-20px;
+  color:#000;
+}
+
+.belief-text h3{
+  font-size:30px;
+  font-family:'Playfair Display',serif;
+  font-style:italic;
+  font-weight:600;
+  color:#000;
+}
+
+.top-cards{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+
+.bottom-cards{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+}
+
+.belief-card{
+  background:#fff;
+  padding:28px;
+  border-radius:16px;
+  min-height:220px;
+  transition:0.3s;
+}
+
+.belief-card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.belief-card h4{
+  font-size:22px;
+  font-family:'Playfair Display',serif;
+  margin-bottom:10px;
+}
+
+.belief-card small{
+  color:#7e7e7e;
+  display:block;
+  margin-bottom:15px;
+}
+
+.belief-card p{
+  color:#444;
+  line-height:1.7;
+  font-size:14px;
+}
+
+
+@media(max-width:992px){
+
+  .values-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+  .section-title{
+    font-size:54px;
+  }
+}
+
+@media(max-width:768px){
+
+  .values-grid{
+    grid-template-columns:1fr;
+  }
+
+  .section-title{
+    font-size:40px;
+  }
+
+  .value-card h3{
+    font-size:28px;
+  }
+
+  .value-card p{
+    font-size:15px;
+  }
+}
+
+
+@media(max-width:992px){
+
+  .top-layout{
+    grid-template-columns:1fr;
+  }
+
+  .bottom-cards{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+}
+
+@media(max-width:768px){
+
+  .top-cards,
+  .bottom-cards{
+    grid-template-columns:1fr;
+  }
+
+  .belief-text h2{
+    font-size:38px;
+  }
+
+  .belief-text h3{
+    font-size:28px;
+  }
+
+}
+
+@media(max-width:992px){
+
+  .about-intro h1{
+    font-size:50px;
+  }
+
+  .mission-section h2{
+    font-size:52px;
+  }
+
+  .card{
+    width:100%;
+    max-width:500px;
+  }
+}
+
+@media(max-width:768px){
+
+  .about-intro{
+    padding:70px 20px 50px;
+  }
+
+  .about-intro h1{
+    font-size:38px;
+  }
+
+  .about-intro p{
+    font-size:15px;
+  }
+
+  .mission-section h2{
+    font-size:36px;
+  }
+
+  .plus-icon{
+    font-size:60px;
+  }
+
+  .card h3{
+    font-size:32px;
+  }
+
+  .card p{
+    font-size:15px;
+  }
+
+}

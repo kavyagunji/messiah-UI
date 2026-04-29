@@ -1,0 +1,55 @@
+<div class="contact-contents">
+    <img src="images/contact-img.png" class="main-imgs" />
+    <div class="cont-img"></div>
+    <div class="contact-text">
+        <div class="main-heading">CONTACT US</div>
+    </div>
+</div>
+
+<section class="contact-section">
+
+  <div class="contact-container">
+
+
+    <div class="contact-left">
+
+      <img src="images/map.png" class="map-img" alt="Map">
+
+      <img src="images/church-building.png" class="building-img" alt="Church Building">
+
+    </div>
+
+    <div class="contact-right">
+
+      <div>Get In Touch</div>
+
+     <form #contactForm="ngForm" (ngSubmit)="sendMessage(contactForm)">
+      <input type="text" name="name" ngModel placeholder="Your full name*" required>
+      <input type="email" name="email" ngModel placeholder="Your email Address*" required>
+      <input type="text" name="subject" ngModel placeholder="Subject*" required>
+      <textarea name="message" ngModel rows="6" placeholder="Your message to us*" required></textarea>
+      <button type="submit">SEND YOUR MESSAGE</button>
+    </form>
+
+    </div>
+
+    <div class="contact-bottom">
+      <p class="follow">Follow Us on Our Social Media Platforms</p>
+      <div class="social-links">
+      <span><img src="images/icons1.png" width="25" style="position: relative; ;top:5px;">  Messiah Fellowship</span>
+      <span><img src="images/icons2.png" width="25" style="position: relative; ;top:5px;">  Messiah Fellowship</span>
+      <span><img src="images/icons3.png" width="25" style="position: relative; ;top:5px;">  Messiah Fellowship</span>
+      </div>
+
+      <hr>
+
+      <div class="contact-info">
+        <span><img src="images/icons5.png" width="25" style="position: relative; ;top:5px;">  +91-9494 76 76 33</span>
+        <span><img src="images/icons4.png" width="25" style="position: relative; ;top:5px;">  info&#64;messiahfellowship.net</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
