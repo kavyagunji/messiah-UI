@@ -10,7 +10,7 @@ import { throwError } from 'rxjs';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+isLoading: boolean = false;
 
 constructor(private http: HttpClient) {}
 
