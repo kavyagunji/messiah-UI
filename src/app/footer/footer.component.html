@@ -64,7 +64,7 @@
       <div class="left-fields">
         <input type="text" name="name" ngModel placeholder="Your name" required  />
         <input type="email" name="email" ngModel placeholder="Your email" required />
-        <input type="text" name="city" ngModel placeholder="City" />
+        <input type="text" name="city" ngModel placeholder="City" required/>
         <div class="phone-group">
           <select name="countryCode" ngModel required >
           <option value="+91" selected>+91 </option>
@@ -72,7 +72,7 @@
            <option value="+44">+44</option>
            <option value="+61">+61</option>
           </select>
-          <input name="phone" type="phone" ngModel placeholder="Phone Number"  />
+          <input name="phone" type="tel" ngModel placeholder="Phone Number" required />
         </div>
       </div>
 
