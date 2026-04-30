@@ -12,7 +12,7 @@ export class ContactComponent {
 sendMessage(form: NgForm) {
   if (form.invalid) return;
 
-  this.http.post('https://messiah-backend.onrender.com/send-email', form.value)
+  this.http.post('https://messiah-backend-19.onrender.com/send-email', form.value)
     .subscribe({
       next: () => {
         alert('Message sent successfully!');
