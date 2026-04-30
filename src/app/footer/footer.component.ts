@@ -37,3 +37,4 @@ currentYear: number = new Date().getFullYear();
       }
     });
 }
+}
