@@ -14,7 +14,7 @@ export class ContactComponent {
   sendMessage(form: NgForm) {
     if (form.invalid) return;
     this.Message = 'Message sending please wait...'
-    this.http.post('https://messiah-backend.onrender.com/send-email', form.value)
+    this.http.post('https://messiah-backend-20.onrender.com/send-email', form.value)
       .subscribe({
         next: () => {
           this.Message = "Message sent successfully!..."

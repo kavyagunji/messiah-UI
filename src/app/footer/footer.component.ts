@@ -27,7 +27,7 @@ export class FooterComponent {
       return;
     }
     this.Message = 'Message sending please wait...'
-    this.http.post('https://messiah-backend-1.onrender.com/send-email', form.value)
+    this.http.post('https://messiah-backend-20.onrender.com/send-email', form.value)
       .subscribe({
         next: (res) => {
           console.log("SUCCESS:", res);
