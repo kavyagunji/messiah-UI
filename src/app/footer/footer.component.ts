@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Form } from '@angular/forms';
+import { timeout, catchError } from 'rxjs/operators';
+import { throwError } from 'rxjs';
 
 @Component({
   selector: 'app-footer',
@@ -14,10 +16,7 @@ constructor(private http: HttpClient) {}
 
 currentYear: number = new Date().getFullYear();
 
-   sendPrayer(form: any) {
-
-  console.log("FORM INVALID:", form.invalid);
-  console.log("FORM VALUE:", form.value);
+  sendPrayer(form: any) {
 
   if (form.invalid) {
     alert('Please fill all required fields');
@@ -25,15 +24,24 @@ currentYear: number = new Date().getFullYear();
   }
 
   this.http.post('https://messiah-backend.onrender.com/send-email', form.value)
+    .pipe(
+      timeout(10000),
+      catchError((err) => {
+        console.error("ERROR:", err);
+
+        if (err.name === 'TimeoutError') {
+          alert('Server is slow. Please try again.');
+        } else {
+          alert('Failed to send request');
+        }
+
+        return throwError(() => err);
+      })
+    )
     .subscribe({
-      next: (res) => {
-        console.log("SUCCESS:", res);
+      next: () => {
         alert('Message sent successfully!');
         form.reset();
-      },
-      error: (err) => {
-        console.error("ERROR:", err);
-        alert('Failed to send');
       }
     });
 }
