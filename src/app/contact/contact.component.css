@@ -58,9 +58,11 @@ background: linear-gradient(360deg, #10100F 9.27%, rgba(44, 44, 44, 0.5) 98.41%)
   padding:35px;
   border-radius:18px;
 }
-
-.contact-right {
+.form-heading{
   font-size:45px;
+}
+.contact-right {
+
   font-family:'Playfair Display', serif;
   font-weight:500;
   color:#111;
@@ -96,7 +98,33 @@ background: linear-gradient(360deg, #10100F 9.27%, rgba(44, 44, 44, 0.5) 98.41%)
   background:#111;
   color:#fff;
 }
+.contact-right button:disabled{
+    background-color: grey;
+  cursor: not-allowed;
+  color:white;
+  border: unset;
+}
+.contact-right button:disabled:hover{
+    background-color: grey;
+  cursor: not-allowed;
+  color:white;
+  border: unset;
+}
+.msg-wait{
+  font-size: 16px;
+  font-weight: 400;
+  color:orangered;
+  text-align: center;
 
+    margin-top: 10px;
+}
+.msg-success{
+  font-size: 16px;
+  font-weight: 400;
+  color:green;
+  text-align: center;
+  margin-top: 10px;
+}
 .contact-bottom{
   grid-column:1 / -1;
   text-align:center;
