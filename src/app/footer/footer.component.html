@@ -80,7 +80,7 @@
          <textarea name="message" ngModel required placeholder="Message" ></textarea>
       </div>
       </div>
-      <button class="submit-btn" type="submit" >SEND YOUR REQUEST</button>
+      <button class="submit-btn" type="submit" > {{ isLoading ? 'Sending...' : 'SEND YOUR REQUEST' }}</button>
     </form>
 
     
