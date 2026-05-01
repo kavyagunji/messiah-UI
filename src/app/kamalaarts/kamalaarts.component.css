@@ -66,11 +66,25 @@ font-size: 50px;
   display: block;
 }
 
-.content div {
- font-family: Playfair Display;
+.mainhead{
+font-family: Playfair Display;
 font-weight: 400;
 font-style: Regular;
-font-size: 98px;
+font-size: 79px;
+leading-trim: NONE;
+line-height: 94%;
+letter-spacing: -6%;
+}
+
+.subhead{
+  font-family: Playfair Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 63px;
+leading-trim: NONE;
+line-height: 94%;
+letter-spacing: -6%;
+
 }
 
 .content p {
@@ -78,7 +92,23 @@ font-family: Inter;
 font-weight: 400;
 font-style: Regular;
 font-size: 18px;
+leading-trim: NONE;
+line-height: 26px;
+letter-spacing: 0%;
+color: #272727;
 }
+
+.ourmission{
+  font-family: Playfair Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 70px;
+leading-trim: NONE;
+line-height: 94px;
+letter-spacing: -5%;
+
+}
+
 .info-section {
   display: grid;
   grid-template-columns: 1fr 1fr; 
@@ -102,12 +132,20 @@ font-size: 18px;
 }
 
 
-.info-box h2 {
-  font-size: 32px;
-  margin-bottom: 20px;
-  font-family: serif;
+.head {
+ font-family: Playfair Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 50px;
+leading-trim: NONE;
+line-height: 94px;
+letter-spacing: -8%;
+color: #f9f9f9;
 }
 
+.info-box2{
+  padding-left: 60px;
+}
 
 .info-box ul {
   padding-left: 20px;
@@ -115,12 +153,24 @@ font-size: 18px;
 
 .info-box li {
   margin-bottom: 10px;
-  line-height: 1.5;
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
 }
 
 .info-box p {
-  line-height: 1.6;
-  font-size: 15px;
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 22px;
+letter-spacing: 0%;
+color: #f9f9f9;
 }
 
 .relief-section{
@@ -156,17 +206,28 @@ font-size: 18px;
 }
 
 .quote-main {
-  font-size: 71px;
-  font-style: italic;
-  font-family: "Playfair Display", serif; 
+  font-family: Playfair Display;
+font-weight: 700;
+font-style: Italic;
+font-size: 71px;
+leading-trim: NONE;
+line-height: 73px;
+letter-spacing: -5%;
+text-align: center;
+vertical-align: middle; 
   color: #594C54;
   margin: 0 auto;
   max-width: 1200px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 
-@media(max-width:992px){
 
+@media(max-width:992px){
+.info-box2{
+  padding-left: 30px;
+}
   .mission-box{
     grid-template-columns:1fr;
   }

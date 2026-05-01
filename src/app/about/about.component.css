@@ -45,30 +45,40 @@ body{
 }
 
 .mini-title{
-  font-size:16px;
-  letter-spacing:3px;
-  font-weight:600;
-  color:#2b2b2b;
-  display:block;
-  margin-bottom:30px;
-  font-style: bold;
+ font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 15%;
+color: #2B2B2B;
+margin-bottom: 30px;
 }
 
 .about-intro h1{
-  font-family:'Playfair Display', serif;
-  font-size:50px;
-  font-weight:400;
-  line-height:1.15;
+  font-family: Playfair Display;
+font-weight: 400;
+font-style: Italic;
+font-size: 50px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: 0%;
+text-align: center;
   color:#1a1a1a;
   margin-bottom:35px;
 }
 
 .about-intro p{
-  max-width:900px;
-  margin:0 auto 18px;
+  font-family: Inter;
+font-weight: 300;
+font-style: Light;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
   color:#414141;
-  font-size:14px;
-  line-height:1.8;
 }
 
 .mission-section{
@@ -78,11 +88,15 @@ body{
 }
 
 .mission-section h2{
-  font-family:'Playfair Display', serif;
-  font-size:69px;
-  font-weight:400;
-  line-height:1.1;
-  color:#111;
+  font-family: Playfair Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 69px;
+leading-trim: NONE;
+line-height: 118%;
+letter-spacing: 0%;
+text-align: center;
+  color:#161616;
   margin-bottom:20px;
 }
 
@@ -110,16 +124,29 @@ body{
 }
 
 .card h3{
-  font-size:35px;
   margin-bottom:20px;
-  color:#000;
-  font-weight:600;
+ font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 35px;
+leading-trim: NONE;
+line-height: 118%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+
 }
 
 .card p{
-  font-size:20px;
+font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
   color:#000;
-  line-height:1.8;
 }
 
 .belief-section{
@@ -140,10 +167,14 @@ body{
 
 .section-title{
   text-align:center;
-  font-size:70px;
-  font-family:'Playfair Display', serif;
-  font-weight:400;
-  color:#33262E;
+  font-family: Playfair Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 70px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #33262E;
   margin-bottom:55px;
 }
 
@@ -157,7 +188,7 @@ body{
   background:#efdbe8;
   padding: 20px 30px 9px;
   border-radius:18px;
-  min-height:290px;
+  min-height:250px;
   transition:0.3s ease;
 }
 
@@ -167,24 +198,30 @@ body{
 }
 
 .icon{
-  font-size:34px;
-  margin-bottom:25px;
-  color:#6a1d4d;
+  margin-top: 20px;
+  margin-bottom:55px;
 }
 
 .value-card h3{
-  font-size:36px;
-  font-family:'Playfair Display', serif;
-  font-style:italic;
-  font-weight:500;
+  font-family: Playfair Display;
+font-weight: 500;
+font-style: Italic;
+font-size: 30px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -7%;
   color:#4F0834;
   margin-bottom:18px;
 }
 
 .value-card p{
-  font-size:17px;
-  color:#4F0834;
-  line-height:1.7;
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
 }
 
 .container{
@@ -200,17 +237,25 @@ body{
 }
 
 .belief-text h2{
-  font-size:40px;
-  font-family:'Playfair Display',serif;
+  font-family: Playfair Display;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
   margin-bottom:-20px;
   color:#000;
 }
 
 .belief-text h3{
-  font-size:30px;
-  font-family:'Playfair Display',serif;
-  font-style:italic;
-  font-weight:600;
+  font-family: Playfair Display;
+font-weight: 600;
+font-style: Italic;
+font-size: 30px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
   color:#000;
 }
 
@@ -240,8 +285,13 @@ body{
 }
 
 .belief-card h4{
-  font-size:22px;
-  font-family:'Playfair Display',serif;
+  font-family: Playfair Display;
+font-weight: 700;
+font-style: Bold;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
   margin-bottom:10px;
 }
 
@@ -249,12 +299,24 @@ body{
   color:#7e7e7e;
   display:block;
   margin-bottom:15px;
+  font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
 }
 
 .belief-card p{
-  color:#444;
-  line-height:1.7;
-  font-size:14px;
+  color:#000000;
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0%;
 }
 
 

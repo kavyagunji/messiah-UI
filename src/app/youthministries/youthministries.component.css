@@ -35,24 +35,38 @@
 }
 
 .youth-content h1{
-  font-size:100px;
-  line-height:1;
-  font-family:'Playfair Display', serif;
-  font-weight:500;
-  color:#111;
+ font-family: Playfair Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 100px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -6%;
+  color:#000000;
   margin-bottom:25px;
 }
 
 .time{
-  font-size:16px;
-  color:#666;
+  font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+  color:#717171;
   margin-bottom:30px;
 }
 
 .youth-content p{
-  font-size:15px;
-  line-height:1.8;
-  color:#444;
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 22px;
+letter-spacing: 0%;
+  color:#141414;
   margin-bottom:18px;
   max-width:720px;
 }
@@ -63,18 +77,16 @@
 }
 
 .youth-gallery{
-  max-width:1200px;
+max-width: 1200px;
   margin:50px auto 0;
   display:grid;
   grid-template-columns:repeat(3,1fr);
   gap:25px;
   margin-bottom: 15px;
+  border-radius: 15px;
 }
-
-.gallery-box{
-  height:230px;
-  background:#ddd;
-  border-radius:10px;
+.youth-gallery img{
+  width: 100%;
 }
 
 @media(max-width:992px){
@@ -84,7 +96,7 @@
   }
 
   .youth-content h1{
-    font-size:50px;
+    font-size:70px;
   }
 
   .youth-gallery{

@@ -10,10 +10,13 @@ body {
 }
 
 .main-heading{
-  font-family: Playfair Display;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 100px;
+ font-family: Playfair Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 100px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
 }
 
 @media (max-width:825px){

@@ -73,11 +73,15 @@ font-size: 50px;
   display: block;
 }
 
-.content div {
- font-family: Playfair Display;
+.flood-relief {
+font-family: Playfair Display;
 font-weight: 400;
 font-style: Regular;
 font-size: 98px;
+leading-trim: NONE;
+line-height: 94px;
+letter-spacing: -6%;
+color: #000000;
 }
 
 .content p {
@@ -85,6 +89,10 @@ font-family: Inter;
 font-weight: 400;
 font-style: Regular;
 font-size: 18px;
+leading-trim: NONE;
+line-height: 26px;
+letter-spacing: 0%;
+color: #272727;
 }
 
 .info-section {
@@ -92,7 +100,16 @@ font-size: 18px;
   grid-template-columns: 1fr 1fr; 
   margin-bottom: 30px;
 }
-
+.our-response{
+font-family: Playfair Display;
+font-weight: 400;
+font-style: Regular;
+font-size: 70px;
+leading-trim: NONE;
+line-height: 94px;
+letter-spacing: 0%;
+color: #000000;
+}
 .info-box {
   padding: 50px 40px;
   color: white;
@@ -110,11 +127,14 @@ font-size: 18px;
 }
 
 
-.info-box h2 {
+.head{
  font-family: Playfair Display;
 font-weight: 400;
 font-style: Regular;
 font-size: 50px;
+leading-trim: NONE;
+line-height: 94px;
+letter-spacing: 0%;
 text-align: left;
 }
 
@@ -125,12 +145,23 @@ text-align: left;
 
 .info-box li {
   margin-bottom: 10px;
-  line-height: 1.5;
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 30px;
+letter-spacing: 0%;
 }
 
 .info-box p {
-  line-height: 1.6;
-  font-size: 15px;
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 22px;
+letter-spacing: 0%;
 }
 
 .relief-section{
@@ -145,23 +176,46 @@ text-align: left;
 
 h2{
   text-align:center;
-  font-size:44px;
+ font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 50px;
+leading-trim: NONE;
+line-height: 22px;
+letter-spacing: -5%;
+vertical-align: middle;
   margin-bottom:20px;
 }
 
+.info-box2{
+  padding-left: 60px;
+}
 .description{
   max-width:900px;
   margin:auto;
   text-align:center;
-  line-height:1.8;
-  color:#444;
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 25px;
+leading-trim: NONE;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+  color:#121212;
 }
 
 .verse{
   text-align:center;
-  font-style:italic;
+  font-family: Inter;
+font-weight: 300;
+font-style: Italic;
+font-size: 26.8px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
   margin:30px 0 50px;
-  color:#666;
+  color:#121212;
 }
 
 .mission-box{
@@ -178,24 +232,53 @@ h2{
 }
 
 .mission-content h3{
-  font-size:42px;
-  font-family:'Playfair Display',serif;
+  font-family: Playfair Display;
+font-weight: 700;
+font-style: Bold;
+font-size: 50px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
   margin-bottom:18px;
 }
 
 .mission-content p{
-  line-height:1.8;
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 27px;
+leading-trim: NONE;
+line-height: 38px;
+letter-spacing: 0%;
   margin-bottom:25px;
 }
 
 .mission-content a{
-  display:inline-block;
-  padding:12px 24px;
-  border:1px solid #7a1c4f;
-  border-radius:30px;
-  text-decoration:none;
-  color:#7a1c4f;
-  font-size:14px;
+  width: 197px;
+height: 45px;
+angle: 0 deg;
+opacity: 1;
+top: 3115px;
+left: 196px;
+border-radius: 100px;
+padding-top: 20px;
+padding-right: 35px;
+padding-bottom: 20px;
+padding-left: 35px;
+gap: 10px;
+border-width: 1px;
+border: 1px solid #4F0834;
+background: #FFFFFF;
+font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+text-decoration: none;
+color: #4F0834;
 }
 
 .mission-image img{
@@ -215,7 +298,10 @@ h2{
 
 
 @media(max-width:992px){
+.head {
+line-height: 50px;
 
+}
   .mission-box{
     grid-template-columns:1fr;
   }
@@ -227,6 +313,9 @@ h2{
   h1{
     font-size:48px;
   }
+  .info-box2{
+  padding-left: 30px;
+}
 }
 
 @media(max-width:768px){

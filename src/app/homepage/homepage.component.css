@@ -6,11 +6,13 @@
 
 
 .tagline {
-  color: #2B2B2B;
- font-family: Inter;
+  font-family: Inter;
 font-weight: 600;
 font-style: Semi Bold;
 font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 15%;
 }
 
 .main-headings {
@@ -18,16 +20,21 @@ font-family: Playfair Display;
 font-weight: 400;
 font-style: Italic;
 font-size: 50px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: -5%;
 text-align: center;
 margin-bottom: 20px;
 }
 
 .sub-heading {
- font-family: Inter;
+font-family: Inter;
 font-weight: 600;
 font-style: Semi Bold;
 font-size: 30px;
-color: #605F5F;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
 margin-bottom: 10px;
 }
 
@@ -40,7 +47,7 @@ margin-bottom: 10px;
 }
 
 .service-card {
-  background: #b08a2e;
+  background: #A3832E;
   color: #fff;
   padding: 12px 18px;
   border-radius: 6px;
@@ -50,37 +57,56 @@ margin-bottom: 10px;
 
 .service-card span {
   display: block;
-  font-size: 12px;
+font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 27px;
+letter-spacing: -7%;
 }
 
 .service-card strong {
-  font-size: 14px;
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 22px;
+leading-trim: NONE;
+line-height: 27px;
+letter-spacing: -7%;
 }
 
 .desc {
-  font-size: 13px;
-  color: #666;
+ font-family: Inter;
+font-weight: 300;
+font-style: Light;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
   max-width: 700px;
   margin: 10px auto;
-  line-height: 1.6;
+  color: #414141;
 }
 
 
 .cta-btn {
-  margin-top: 25px;
-  padding: 10px 24px;
-  background: #7a1e4d;
-  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 182px;
+  height: 50px;
+  padding: 20px 35px;
+  border-radius: 100px;
+  background-color: #6E0F4A;
+  color: #FFFFFF;
+  opacity: 1;
   border: none;
-  border-radius: 20px;
-  font-size: 12px;
   cursor: pointer;
-  transition: 0.3s;
 }
 
-.cta-btn:hover {
-  background: #5c1438;
-}
 
 .pastors-section {
   width: 100%;
@@ -119,14 +145,14 @@ background: #f8f6f7;
 }
 
 .pastor-founder{
-  font-family: Inter;
-  font-weight: 300;
-  font-style: Light;
-  font-size: 18px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  color: #2B2B2B;
-  text-align: justify;
+font-family: Inter;
+font-weight: 300;
+font-style: Light;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #2B2B2B;
 }
 
 .pastor-image-1 img {
@@ -146,13 +172,14 @@ background: #f8f6f7;
 }
 
 .pastor-sajja{
-  font-family: Playfair Display;
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 100%;
-  letter-spacing: 0%;
-  text-align: justify;
-  color: #2B2B2B;
+font-family: Playfair Display;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #2B2B2B;
 }
 
 .pastor-contents-1{
@@ -164,18 +191,19 @@ font-family: Inter;
 font-weight: 600;
 font-style: Semi Bold;
 font-size: 14px;
+leading-trim: NONE;
 line-height: 22px;
 letter-spacing: 0%;
-
 }
 .pastor-text-content{
 font-family: Inter;
 font-weight: 300;
 font-style: Light;
 font-size: 14px;
+leading-trim: NONE;
 line-height: 22px;
 letter-spacing: 0%;
-color: #1a1a1a;
+color: #1A1A1A;
 }
 
 .label {
@@ -187,10 +215,12 @@ color: #1a1a1a;
 
 .doctor-name{
 font-family: Playfair Display;
-font-weight: 550;
+font-weight: 500;
 font-style: Italic;
 font-size: 22px;
-color: #1A1A1A;
+leading-trim: NONE;
+line-height: 150%;
+letter-spacing: 0%;
 }
 
 .our-pastor{
@@ -198,7 +228,11 @@ font-family: Inter;
 font-weight: 600;
 font-style: Semi Bold;
 font-size: 16px;
-color: #2B2B2B;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color:#2B2B2B;
+;
 }
 
 .highlight {
@@ -207,10 +241,13 @@ color: #2B2B2B;
 }
 
 .doctor-content{
-  font-family: Inter;
+font-family: Inter;
 font-weight: 300;
 font-style: Light;
-font-size: 15px;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0%;
 color: #1A1A1A;
 }
 
@@ -223,20 +260,30 @@ color: #1A1A1A;
 }
 
 .meet-pastor {
-  margin-top: 20px;
-  padding: 10px 20px;
-  border: 1px solid #7a4d5a;
-  background: #9e0a6a;
-  border-radius: 25px;
-  color: #fff;
-  cursor: pointer;
-  transition: 0.3s;
-  width: 200px;
+ width: 215px;
+height: 50px;
+angle: 0 deg;
+opacity: 1;
+top: 1941px;
+left: 732px;
+border-radius: 100px;
+padding-top: 20px;
+padding-right: 35px;
+padding-bottom: 20px;
+padding-left: 35px;
+gap: 10px;
+border-width: 1px;
+border: 1px solid #4F0834;
+color: #4F0834;
+font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
 }
 
-.meet-pastor:hover {
-  background: #804b5a;
-}
 
 .ministries-section {
   background: #5b0038;
@@ -254,18 +301,27 @@ color: #1A1A1A;
 }
 
 .section-header h2 {
-  color: #fff;
-  font-size: 48px;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+  font-family: Playfair Display;
+font-weight: 700;
+font-style: Italic;
+font-size: 65px;
+leading-trim: NONE;
+line-height: 22px;
+letter-spacing: -6%;
+vertical-align: middle;
+color: #F3E6ED;
   margin-bottom: 10px;
 }
 
 .section-header p {
-  color: #d9d9d9;
-  max-width: 650px;
-  font-size: 16px;
-  line-height: 1.6;
+font-family: Inter;
+font-weight: 300;
+font-style: Light;
+font-size: 25px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #F2F2F0;
 }
 
 .day-time{
@@ -275,9 +331,13 @@ color: #1A1A1A;
 }
 
 .arrow{
-  width: 20px;
-  height: 20px;
-  cursor: pointer;
+  width: 24px;
+height: 24px;
+angle: 0 deg;
+opacity: 1;
+top: 3576px;
+left: 452px;
+cursor: pointer;
 }
 .cards-grid {
   display: grid;
@@ -338,22 +398,38 @@ color: #1A1A1A;
 }
 
 .card-content h3 {
-  font-size: 22px;
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 25px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
   margin-bottom: 8px;
-  color: #111;
+  color: #1A1A1A;
 }
 
 .card-content p {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 12px;
-  line-height: 1.5;
+  font-family: Inter;
+font-weight: 300;
+font-style: Light;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0%;
+margin-bottom: 12px;
+color: #2B2B2B;
 }
 
 .card-content span {
-  font-size: 13px;
-  color: #444;
-  font-weight: 600;
+ font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #2B2B2B;
 }
 
 .wide-card {
@@ -382,20 +458,38 @@ color: #1A1A1A;
 }
 
 .banner-card h3 {
-  font-size: 44px;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
+font-family: Playfair Display;
+font-weight: 700;
+font-style: Italic;
+font-size: 50px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
   margin-bottom: 10px;
+  color: #ffffff;
 }
 
 .banner-card p {
-  font-size: 15px;
+    font-family: Inter;
+font-weight: 300;
+font-style: Light;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #ffffff;
   margin-bottom: 10px;
 }
 
 .banner-card span {
-  font-size: 15px;
-  font-weight: bold;
+font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 20px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #ffffff;
 }
 
 
@@ -436,6 +530,10 @@ font-family: Playfair Display;
 font-weight: 700;
 font-style: Bold;
 font-size: 45px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color: #1A1A1A;
 }
 
 .sub-title {
@@ -443,73 +541,104 @@ font-family: Inter;
 font-weight: 300;
 font-style: Light;
 font-size: 21px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
 color: #2B2B2B;
 }
 
 .college-content p {
+font-family: Inter;
 font-weight: 300;
 font-style: Light;
 font-size: 14px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0%;
 color: #1A1A1A;
 }
 
 .btn-outline {
-  display: inline-block;
-  margin-top: 15px;
-  padding: 12px 28px;
-  border: 2px solid ;
-  color: #fff;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: 600;
-  transition: 0.3s;
-  background: #9e0a6a;
-  width: 165px;
-  text-align: center;
+  width: 133px;
+height: 0px;
+angle: 0 deg;
+opacity: 1;
+top: 5137px;
+left: 776px;
+border-radius: 100px;
+padding-top: 20px;
+padding-right: 35px;
+padding-bottom: 20px;
+padding-left: 35px;
+gap: 10px;
+border-width: 1px;
+border: 1px solid #4F0834;
+font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+color:#4F0834;
+text-decoration: none;
+display: flex;
+align-items: center;
 }
 
-.btn-outline:hover {
-  background: #6e0048;
-  color: #fff;
-}
 
 .section-title {
+  margin-top: 40px;
   text-align: center;
 }
 
-.section-title h2 {
-  font-family: Inter;
+.community-outreach {
+font-family: Inter;
 font-weight: 600;
 font-style: Semi Bold;
 font-size: 55px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: -7%;
 }
 
-.section-title h3 {
-  font-size: 50px;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  color: #222;
-  line-height: 1.3;
-  margin: 10px 0 20px;
+.sharing-god {
+  font-family: Playfair Display;
+font-weight: 600;
+font-style: Italic;
+font-size: 51px;
+leading-trim: NONE;
+line-height: 51px;
+letter-spacing: 0%;
+text-align: center;
   color: #1B1B1B;
 }
 
-.section-title div {
-  font-size: 21px;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  color: #222;
-  line-height: 1.3;
-  margin: 10px 0 20px;
-  color: #2B2B2B;
+.section-title p {
+ font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0%;
+color: #242424;
+  margin-bottom: 12px;
+  display: flex;
+align-items: left;
 }
 
-.section-title p {
-  max-width: 850px;
-  margin: auto;
-  color: #555;
-  line-height: 1.8;
-  font-size: 15px;
+.through{
+  font-family: Inter;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 20px;
+letter-spacing: 0%;
+color: #242424;
+display: flex;
+align-items: left;
   margin-bottom: 12px;
 }
 
@@ -520,8 +649,12 @@ font-size: 55px;
 }
 
 .nav-buttons button{
-  width:46px;
-  height:46px;
+ width: 35px;
+height: 35px;
+angle: 0 deg;
+opacity: 1;
+top: 5651px;
+left: 165px;
   border:none;
   border-radius:50%;
   background:#111;
@@ -576,14 +709,23 @@ font-size: 55px;
 }
 
 .overlay span{
-  font-size:14px;
-  letter-spacing:1px;
+font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: -5%;
 }
 
 .month-year{
-  font-size:28px;
-  line-height:1;
-  margin:8px 0 12px;
+  font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 28px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: -5%;
 }
 
 .date-know{
@@ -593,9 +735,15 @@ font-size: 55px;
 }
 
 .overlay a{
-  color:#fff;
-  text-decoration:none;
-  font-size:14px;
+  color:#DBDBDB;
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 110.00000000000001%;
+letter-spacing: -5%;
+text-decoration: none;
 }
 
 .give-section {
@@ -610,30 +758,44 @@ font-size: 55px;
   padding: 35px 60px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   overflow: hidden;
 }
 
 .give-content h2 {
-  font-size: 72px;
-  color: #fff;
-  font-family: 'Playfair Display', serif;
-  font-style: italic;
-  font-weight: 500;
+  font-family: Playfair Display;
+font-weight: 700;
+font-style: Italic;
+font-size: 70px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
   margin-bottom: 18px;
   margin-top: 10px;
+  color: #FFFBF0;
 }
 
 .sub-text {
-  color: #f7f1d8;
-  font-size: 18px;
+ font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 25px;
+letter-spacing: 0%;
   margin-bottom: 10px;
+  color: #FFFBF0;
 }
 
 .desc-give {
-  color: #f7f1d8;
-  font-size: 17px;
-  max-width: 700px;
+  font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 25px;
+letter-spacing: 0%;
+color: #FFFBF0;
   margin-bottom: 35px;
 }
 
@@ -648,11 +810,6 @@ font-size: 55px;
   font-weight: 600;
   letter-spacing: 0.5px;
   transition: 0.3s ease;
-}
-
-.give-btn:hover {
-  background: #795a04;
-  color: #ffffff ;
 }
 
 .give-image {
@@ -694,12 +851,7 @@ font-size: 55px;
 }
 
 @media (max-width: 992px) {
-  .give-container {
-    flex-direction: column;
-    text-align: center;
-    padding: 45px 30px;
-  }
-
+ 
   .give-content h2 {
     font-size: 58px;
   }
@@ -774,6 +926,11 @@ font-size: 55px;
 
   .outreach-grid{
     grid-template-columns:1fr;
+  }
+   
+   .give-container {
+    flex-direction: column;
+    padding: 45px 30px;
   }
 
   .overlay h3{
