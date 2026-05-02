@@ -193,6 +193,7 @@ color: #f9f9f9;
   gap: 20px;
   margin: 0 auto;
   max-width: 1200px;
+  padding: 10px;
 }
 
 .medical-gallery img {

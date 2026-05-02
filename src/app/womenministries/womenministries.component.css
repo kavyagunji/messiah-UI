@@ -94,6 +94,10 @@ letter-spacing: 0%;
   .womens-gallery{
     grid-template-columns:1fr 1fr;
   }
+
+  .womens-section{
+  padding:0px 20px;
+}
 }
 
 @media(max-width:768px){
@@ -105,4 +109,8 @@ letter-spacing: 0%;
   .gallery-box{
     height:200px;
   }
+
+    .womens-section{
+  padding:0px 20px;
+}
 }
