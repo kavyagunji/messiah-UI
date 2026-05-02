@@ -1,6 +1,8 @@
 <div>
-    <div>
-    <img src="images/homelogo.png" width="100%" />
+    <video controls loop autoplay  width="100%">
+  <source src="images/video.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 </div>
 <div>
     <section class="about-section">
@@ -136,7 +138,7 @@
         <img src="images/men-ministry.png" alt="Men's Ministry" class="card-tower">
         <div class="card-content">
           <h3>Men’s Ministry</h3>
-          <p>Building men of faith, character and purpose</p><br/>
+          <p>Building men of faith, character and purpose</p>
           <div class="day-time">
           <span>Wednesdays 5:00am</span>
           <img src="images/arrow.png" class="arrow" [routerLink]="'/men'">
@@ -161,7 +163,10 @@
         <div class="card-content">
           <h3>Youth Ministry</h3>
           <p>Raising a generation rooted in Christ and bold in faith</p>
+          <div class="day-time">
           <span>Second Saturday 6:00pm</span>
+          <img src="images/arrow.png" class="arrow" [routerLink]="'/youth'">
+          </div>
         </div>
       </div>
     </div><br/>
@@ -171,7 +176,7 @@
         <img src="images/sunday-school.png" alt="Sunday School" class="card-tower">
         <div class="card-content">
           <h3>Sunday School</h3>
-          <p>TRaising a generation rooted in Christ and bold in faith</p>
+          <p>TRaising a generation rooted in Christ and bold in faith</p><br>
           <div class="day-time">
           <span>Sunday 8:00am & 10:00am</span>
           <img src="images/arrow.png" class="arrow" [routerLink]="'/children'">
@@ -184,7 +189,10 @@
         <div class="card-content">
           <h3>Prayer Tower</h3>
           <p>A house of prayer where faith is strengthened and lives are restored</p>
+          <div class="day-time">
           <span>Everyday 7:00am to 7:00pm</span>
+          <img src="images/arrow.png" class="arrow" [routerLink]="'/prayer'">
+          </div>
         </div>
       </div>
     </div><br/>
@@ -193,7 +201,8 @@
         <img src="images/family-blessing.png" alt="Family Blessing Prayer" class="card-tower">
         <div class="overlays">
           <h3>Family Blessing Prayer</h3>
-          <p>Join us as we gather in prayer for families.</p>
+          <p>Join us as we gather in prayer for families, seeking God’s blessing,<br>
+guidance, and peace over our homes and loved ones.</p>
           <span>Friday 6:30pm</span>
         </div>
       </div>
@@ -311,4 +320,3 @@
 
   </div>
 </section>
-</div>
