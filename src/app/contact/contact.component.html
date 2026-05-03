@@ -25,13 +25,7 @@
 
       <form #contactForm="ngForm" (ngSubmit)="sendMessage(contactForm)">
         <input type="text" name="name" ngModel placeholder="Your full name*" required>
-        <input  type="email"
-    name="email"
-    [(ngModel)]="email"
-    required
-    email
-    #emailRef="ngModel"
-    placeholder="Your email address">
+        <input  type="email" name="email" [(ngModel)]="email" required email #emailRef="ngModel" placeholder="Your email address">
         <div *ngIf="contactForm.controls['email']?.invalid && contactForm.controls['email']?.touched" style="margin-bottom: 15px;">
 
           <!-- <small *ngIf="contactForm.controls['email']?.errors?.['required']" class="msg-wait">
@@ -54,9 +48,9 @@
     <div class="contact-bottom">
       <p class="follow">Follow Us on Our Social Media Platforms</p>
       <div class="social-links">
-        <span><img src="images/icons1.png" width="25" style="position: relative; ;top:5px;"> Messiah Fellowship</span>
-        <span><img src="images/icons2.png" width="25" style="position: relative; ;top:5px;"> Messiah Fellowship</span>
-        <span><img src="images/icons3.png" width="25" style="position: relative; ;top:5px;"> Messiah Fellowship</span>
+        <a><img src="images/icons1.png" width="25" style="position: relative; ;top:5px;"> Messiah Fellowship</a>
+        <a href="https://www.facebook.com/share/1CdXpVx2pq/?mibextid=wwXIfr" target="_blank"><img src="images/icons2.png" width="25" style="position: relative; ;top:5px;"> Messiah Fellowship</a>
+        <a><img src="images/icons3.png" width="25" style="position: relative; ;top:5px;"> Messiah Fellowship</a>
       </div>
 
       <hr>
@@ -64,7 +58,7 @@
       <div class="contact-info">
         <span><img src="images/icons5.png" width="25" style="position: relative; ;top:5px;"> +91-9494 76 76 33</span>
         <span><img src="images/icons4.png" width="25" style="position: relative; ;top:5px;">
-          info&#64;messiahfellowship.net</span>
+          ratnaksajja&#64;gmail.com</span>
       </div>
 
     </div>

@@ -36,6 +36,7 @@ leading-trim: NONE;
 line-height: 100%;
 letter-spacing: 0%;
 margin-bottom: 10px;
+color: #605F5F;
 }
 
 .services {
@@ -285,6 +286,7 @@ font-size: 14px;
 leading-trim: NONE;
 line-height: 100%;
 letter-spacing: 0%;
+cursor: pointer;
 }
 
 
