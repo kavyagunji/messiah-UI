@@ -143,6 +143,7 @@ background: #f8f6f7;
 .pastor-rows{
   display: flex;
   align-items: center;
+  margin-left: 60px;
 }
 
 .pastor-founder{
@@ -164,14 +165,14 @@ color: #2B2B2B;
 }
 
 .pastor-image-2 img {
-  width: 100%;
+  width: 95%;
   border-radius: 35px;
   height: 822px;
 }
 
 .pastor-image-2{
   margin-bottom: -130px;
-  width: 50%;
+  width: 40%;
     margin-right: 10%;
 }
 
@@ -271,10 +272,10 @@ opacity: 1;
 top: 1941px;
 left: 732px;
 border-radius: 100px;
-padding-top: 20px;
-padding-right: 35px;
-padding-bottom: 20px;
-padding-left: 35px;
+padding-top: 18px;
+padding-right: 26px;
+padding-bottom: 18px;
+padding-left: 26px;
 gap: 10px;
 border-width: 1px;
 border: 1px solid #4F0834;
@@ -297,7 +298,7 @@ cursor: pointer;
 }
 
 .container {
-  max-width: 1150px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -770,11 +771,11 @@ text-decoration: none;
 }
 
 .give-container {
-  max-width: 1020px;
+  max-width: 1070px;
   margin: auto;
   background: #a8841f;
   border-radius: 18px;
-  padding: 35px 60px;
+  padding: 35px 40px;
   display: flex;
   justify-content: space-between;
   align-items: left;
@@ -820,14 +821,18 @@ color: #FFFBF0;
 
 .give-btn {
   display: inline-block;
-  padding: 14px 34px;
-  border: 1.5px solid #fff;
-  color: #fff;
+  padding: 20px 35px;
+  border: 1px solid #FFFBF0;
+  color: #FFFBF0;
   border-radius: 40px;
   text-decoration: none;
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
+font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
   transition: 0.3s ease;
 }
 
@@ -859,11 +864,11 @@ color: #FFFBF0;
   margin: 10px;
 }
 .pastor-contents-1{
-  width: 100%;
-  padding: unset;
+  width: 85%;
+  padding: 0px 10px;
 }
 .pastor-image-2{
-  width: 60%;
+  width: 80%;
     margin-bottom: -5%;
     margin-right: unset;
 }

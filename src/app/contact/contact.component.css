@@ -60,6 +60,7 @@ background: linear-gradient(360deg, #10100F 9.27%, rgba(44, 44, 44, 0.5) 98.41%)
 }
 .form-heading{
   font-size:45px;
+  margin-bottom: 10px;
 }
 .contact-right {
 
@@ -115,7 +116,6 @@ background: linear-gradient(360deg, #10100F 9.27%, rgba(44, 44, 44, 0.5) 98.41%)
   font-weight: 400;
   color:orangered;
   text-align: center;
-
     margin-top: 10px;
 }
 .msg-success{
@@ -128,15 +128,14 @@ background: linear-gradient(360deg, #10100F 9.27%, rgba(44, 44, 44, 0.5) 98.41%)
 .contact-bottom{
   grid-column:1 / -1;
   text-align:center;
-  padding-top:20px;
 }
 
 .follow{
   font-family:'Playfair Display', serif;
   font-style:italic;
   font-size:24px;
-  margin-bottom:18px;
-  color:#444;
+  margin-bottom:15px;
+  color:#808080;
 }
 
 .social-links{
@@ -145,10 +144,12 @@ background: linear-gradient(360deg, #10100F 9.27%, rgba(44, 44, 44, 0.5) 98.41%)
   gap:35px;
   flex-wrap:wrap;
   margin-bottom:20px;
-  color:#555;
+}
+.social-links a{
+  color:#808080;
   text-decoration: none;
 }
-.social-links :hover{
+.social-links a:hover{
   text-decoration: underline;
 }
 
@@ -164,7 +165,8 @@ background: linear-gradient(360deg, #10100F 9.27%, rgba(44, 44, 44, 0.5) 98.41%)
   justify-content:center;
   gap:30px;
   flex-wrap:wrap;
-  color:#555;
+  color:#808080;
+  cursor: pointer;
 }
 
 /* RESPONSIVE */
