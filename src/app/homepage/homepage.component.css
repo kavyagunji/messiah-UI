@@ -173,7 +173,7 @@ color: #2B2B2B;
 .pastor-image-2{
   margin-bottom: -130px;
   width: 40%;
-    margin-right: 10%;
+    margin-right: 7%;
 }
 
 .pastor-sajja{
@@ -519,7 +519,7 @@ color: #ffffff;
 }
 
 .container {
-  max-width: 1150px;
+  max-width: 1250px;
   margin: auto;
   padding: 0px 20px 0 20px
 }
@@ -771,7 +771,7 @@ text-decoration: none;
 }
 
 .give-container {
-  max-width: 1070px;
+  max-width: 1150px;
   margin: auto;
   background: #a8841f;
   border-radius: 18px;
@@ -870,7 +870,6 @@ letter-spacing: 0%;
 .pastor-image-2{
   width: 80%;
     margin-bottom: -5%;
-    margin-right: unset;
 }
 }
 
