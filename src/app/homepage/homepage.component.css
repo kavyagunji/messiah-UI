@@ -868,8 +868,8 @@ letter-spacing: 0%;
   padding: 0px 10px;
 }
 .pastor-image-2{
-  width: 80%;
-    margin-bottom: -5%;
+  width: 60%;
+    margin-bottom: -9%;
 }
 }
 
@@ -927,7 +927,7 @@ letter-spacing: 0%;
   }
 
   .section-header h2 {
-    font-size: 34px;
+    font-size: 33px;
   }
 
   .banner-card h3 {
@@ -993,4 +993,21 @@ letter-spacing: 0%;
   .college-content{
     padding: 40px;;
   }
+  .pastor-image-2 img {
+  width: 110%;
+  height: 600px;
+}
+.service-card{
+  padding: 6px 9px;
+  min-width: 100px;
+}
+.service-card span{
+  font-size: 16px;
+}
+.service-card strong{
+  font-size: 16px;
+}
+.ministries-section{
+  padding: 50px 20px 30px;
+}
 }
