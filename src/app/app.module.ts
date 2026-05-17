@@ -22,6 +22,7 @@ import { PrayertowerComponent } from './prayertower/prayertower.component';
 import { FloodrelifComponent } from './floodrelif/floodrelif.component';
 import { KamalaartsComponent } from './kamalaarts/kamalaarts.component';
 import { VegetablesComponent } from './vegetables/vegetables.component';
+import { BibleCollegeComponent } from './bible-college/bible-college.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { VegetablesComponent } from './vegetables/vegetables.component';
     PrayertowerComponent,
     FloodrelifComponent,
     KamalaartsComponent,
-    VegetablesComponent
+    VegetablesComponent,
+    BibleCollegeComponent
   ],
   imports: [
     BrowserModule,

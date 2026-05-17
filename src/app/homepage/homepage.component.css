@@ -376,7 +376,7 @@ cursor: pointer;
   overflow: hidden;
   box-shadow: 0 8px 18px rgba(0,0,0,0.15);
   transition: 0.3s ease;
-   
+  cursor: pointer;
 }
 
 .card:hover {
@@ -581,7 +581,7 @@ color: #1A1A1A;
 }
 
 .btn-outline {
-  width: 145px;
+  width: 165px;
 height: 0px;
 angle: 0 deg;
 opacity: 1;
@@ -705,6 +705,7 @@ left: 165px;
   position: relative;
   overflow: hidden; 
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .outreach-card img {

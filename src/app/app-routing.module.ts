@@ -16,6 +16,7 @@ import { PrayertowerComponent } from './prayertower/prayertower.component';
 import { FloodrelifComponent } from './floodrelif/floodrelif.component';
 import { VegetablesComponent } from './vegetables/vegetables.component';
 import { KamalaartsComponent } from './kamalaarts/kamalaarts.component';
+import { BibleCollegeComponent } from './bible-college/bible-college.component';
 
 const routes: Routes = [
    { path: '', component: HomepageComponent },
@@ -33,7 +34,8 @@ const routes: Routes = [
   {path:'prayer',component:PrayertowerComponent},
   {path:'floodrelief',component:FloodrelifComponent},
   {path:'vegetables',component:VegetablesComponent},
-  {path:'kamalaarts',component:KamalaartsComponent}
+  {path:'kamalaarts',component:KamalaartsComponent},
+  {path:'bible-college',component:BibleCollegeComponent}
 ];
 
 @NgModule({

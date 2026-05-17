@@ -264,8 +264,15 @@ vertical-align: middle;
   text-align: center;
   padding: 15px;
   background: #e5e5e5;
-  color: #333;
-  font-size: 15px;
+  color: #2B2B2B;
+ font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+
 }
 
 input.invalid,

@@ -134,44 +134,44 @@
 
     <div class="cards-grid">
 
-      <div class="card small-card">
+      <div class="card small-card" [routerLink]="'/men'">
         <img src="images/men-ministry.png" alt="Men's Ministry" class="card-tower">
         <div class="card-content">
           <h3>Men’s Ministry</h3>
           <div class="text-content">Building men of faith, character and purpose</div>
           <div class="day-time">
           <span>Wednesdays 5:00am</span>
-          <img src="images/arrow.png" class="arrow" [routerLink]="'/men'">
+          <img src="images/arrow.png" class="arrow" >
           </div>
         </div>
       </div>
 
-      <div class="card small-card">
+      <div class="card small-card" [routerLink]="'/women'">
         <img src="images/women-ministry.png" alt="Women's Ministry" class="card-tower">
         <div class="card-content">
           <h3>Women’s Ministry</h3>
           <div class="text-content">Encouraging women to grow in grace, strength and spiritual confidence</div>
           <div class="day-time">
           <span>Enquire: 9494 767 633</span>
-          <img src="images/arrow.png" class="arrow" [routerLink]="'/women'">
+          <img src="images/arrow.png" class="arrow" >
           </div>
         </div>
       </div>
 
-      <div class="card small-card">
+      <div class="card small-card" [routerLink]="'/youth'">
         <img src="images/youth-ministry.png" alt="Youth Ministry" class="card-tower">
         <div class="card-content">
           <h3>Youth Ministry</h3>
           <div class="text-content">Raising a generation rooted in Christ and bold in faith</div>
           <div class="day-time">
           <span>Second Saturday 6:00pm</span>
-          <img src="images/arrow.png" class="arrow" [routerLink]="'/youth'">
+          <img src="images/arrow.png" class="arrow" >
           </div>
         </div>
       </div>
     </div><br/>
 
-    <div class="card1-grid">
+    <div class="card1-grid" [routerLink]="'/children'">
       <div class="card1 wide-card">
         <img src="images/sunday-school.png" alt="Sunday School" class="card-tower">
         <div class="card-content">
@@ -179,19 +179,19 @@
           <div class="text-content">TRaising a generation rooted in Christ and bold in faith</div><br>
           <div class="day-time">
           <span>Sunday 8:00am & 10:00am</span>
-          <img src="images/arrow.png" class="arrow" [routerLink]="'/children'">
+          <img src="images/arrow.png" class="arrow" >
           </div>
         </div>
       </div>
 
-      <div class="card1 wide-card">
+      <div class="card1 wide-card" [routerLink]="'/prayer'">
         <img src="images/prayer-tower.png" alt="Prayer Tower" class="card-tower">
         <div class="card-content">
           <h3>Prayer Tower</h3>
           <div class="text-content">A house of prayer where faith is strengthened and lives are restored</div>
           <div class="day-time">
           <span>Everyday 7:00am to 7:00pm</span>
-          <img src="images/arrow.png" class="arrow" [routerLink]="'/prayer'">
+          <img src="images/arrow.png" class="arrow" >
           </div>
         </div>
       </div>
@@ -225,7 +225,7 @@ guidance, and peace over our homes and loved ones.</p>
           Messiah Bible College exists to equip believers with a deeper understanding of God’s Word and to prepare faithful leaders for ministry. Through structured biblical teaching, spiritual formation, and practical ministry training, we aim to raise men and women who are rooted in Scripture and empowered by the Holy Spirit.</p>
           <p>Our heart is to train disciples who will serve the Church with integrity, wisdom, and a strong foundation in Christian doctrine. Whether called to pastoral ministry, missions, teaching, or church leadership, students are nurtured to grow both academically and spiritually.
         </p>
-        <a href="#" class="btn-outline">Take Your Admission</a>
+        <a href="#" class="btn-outline"  routerLink="/bible-college">TAKE YOUR ASMISSION</a>
       </div>
     </div>
 
@@ -254,40 +254,40 @@ guidance, and peace over our homes and loved ones.</p>
 
     
     <div class="outreach-grid">
-      <div class="outreach-card">
+      <div class="outreach-card"  [routerLink]="'/medical'">
         <img src="images/freehealth.png" alt="Health Camp">
         <div class="outreach-img"></div>
         <div class="overlay">
           <span>FREE HEALTH CAMP</span>
           <div class="date-know">
            <div class="month-year">MAR 2026</div>
-           <a routerLink="/medical">Know More ›</a>
+           <a>Know More ›</a>
           </div>
         </div>
       </div>
 
       
-      <div class="outreach-card">
+      <div class="outreach-card" [routerLink]="'/floodrelief'">
         <img src="images/flood-relief.png" alt="Flood Relief">
         <div class="outreach-img"></div>
-        <div class="overlay">
+        <div class="overlay" >
           <span>FLOOD RELIEF CAMP</span>
           <div class="date-know">
            <div class="month-year">SEP 2026</div>
-           <a routerLink="/floodrelief">Know More ›</a>
+           <a>Know More ›</a>
           </div>
         </div>
       </div>
 
     
-      <div class="outreach-card">
+      <div class="outreach-card" [routerLink]="'/Clothes'">
         <img src="images/cloth-distribution.png" alt="Clothes Distribution">
         <div class="outreach-img"></div>
-        <div class="overlay">
+        <div class="overlay" >
           <span>CLOTHES DISTRIBUTION</span>
           <div class="date-know">
            <div class="month-year">DEC 2026</div>
-           <a routerLink="/Clothe">Know More ›</a>
+           <a>Know More ›</a>
           </div>
         </div>
       </div>
