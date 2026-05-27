@@ -517,6 +517,7 @@ color: #ffffff;
 .outreach-section {
   font-family: 'Poppins', sans-serif;
   padding: 60px 0px 0px;
+  cursor: pointer;
 }
 
 .container {

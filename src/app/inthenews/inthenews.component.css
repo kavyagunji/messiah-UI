@@ -48,11 +48,17 @@
 }
 
 .news-content h2{
-  font-size:32px;
-  color:#222;
+  font-family: Inter;
+font-weight: 600;
+font-style: Semi Bold;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+  color:#3F3F3F;
   line-height:1.5;
   margin-bottom:50px;
-  font-weight:500;
 }
 
 
