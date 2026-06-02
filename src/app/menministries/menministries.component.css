@@ -72,24 +72,28 @@ letter-spacing: 0%;
   max-width:720px;
 }
 
+.gallery-box{
+  height:230px;
+  background:#ddd;
+  border-radius:10px;
+}
+
 .mens-image img{
   width:100%;
   border-radius:8px;
 }
 
 .mens-gallery{
-  max-width:1200px;
+max-width: 1200px;
   margin:50px auto 0;
   display:grid;
   grid-template-columns:repeat(3,1fr);
   gap:25px;
   margin-bottom: 15px;
+  border-radius: 15px;
 }
-
-.gallery-box{
-  height:230px;
-  background:#ddd;
-  border-radius:10px;
+.mens-gallery img{
+  width: 100%;
 }
 
 @media(max-width:992px){
